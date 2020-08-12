@@ -5,5 +5,3 @@ This information is similar to what is returned by the Retrieve Referenced Objec
 The list of objects returned may be incomplete for objects residing in file systems other than the root (/), QOpenSys, and user-defined file systems. Objects in some of the other file systems can be locked with interfaces that do not use the integrated file system. Therefore, objects referenced by a job will only have references that were obtained as part of an integrated file system operation, or an operation that causes an integrated file system operation to occur.
 
 Authorization: The user must be running with the same user profile as the job being retrieved or have *JOBCTL authority.
-
-new line added 
